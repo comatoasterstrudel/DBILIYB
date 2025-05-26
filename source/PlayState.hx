@@ -9,6 +9,16 @@ class PlayState extends FlxState
 		add(new ButtonSprite('assets/images/ph_button.png', 'assets/images/ph_buttonpressed.png', function():Void
 		{
 			trace('lickin my weiner');
+			add(new DialogueBox('uhhh placeholder  text to rtest textbox', function():Void
+			{
+				add(new DialogueBox('you can chain these btw', function():Void
+				{
+					add(new DialogueBox('this font is called kg-miss-kindergarten-font..', function():Void
+					{
+						add(new DialogueBox('ok  .  bye                     .', function():Void {}, 200, 250));
+					}, 300, 0));
+				}, 100, 250));
+			}, 300, 100));
 		}, 5, 5));
 		FlxG.mouse.load('assets/images/cursor.png');
 	}
