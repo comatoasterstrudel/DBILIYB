@@ -51,6 +51,8 @@
 	<!--Remove the legacy health system-->
 	<haxedef name="FLX_NO_HEALTH" />
 	
+	<assets path='music.txt' rename='music credits.txt'/>
+
 	<!--Enable the Flixel core recording system-->
 	<!--<haxedef name="FLX_RECORD" />-->
 

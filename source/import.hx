@@ -1,4 +1,6 @@
 import ButtonSprite;
+import MenuBackground;
+import TitleState;
 import flixel.FlxBasic;
 import flixel.FlxG;
 import flixel.FlxSprite;

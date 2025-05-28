@@ -8,6 +8,8 @@ class ButtonSprite extends FlxSprite{
     
     var pressedFunction:Void->Void;
     
+	public var pressed:Bool = false;
+    
     public function new(idlePath:String, pressedPath:String, pressedFunction:Void->Void, x, y):Void{        
         this.idlePath = idlePath;
         this.pressedPath = pressedPath;
@@ -28,11 +30,13 @@ class ButtonSprite extends FlxSprite{
             if(FlxG.mouse.justPressed){
                 pressedFunction();
             }
+			pressed = true;
         } else {
             if(currentSprite != idlePath){
                 loadGraphic(idlePath);
                 currentSprite = idlePath;
             }
+			pressed = false;
         }
     }
 }
