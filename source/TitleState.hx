@@ -34,7 +34,7 @@ class TitleState extends FlxState
             }
         });
         
-        FlxG.sound.playMusic('assets/music/Sneaky Snitch.ogg');
+		FlxG.sound.playMusic('assets/music/Sneaky Snitch' + Main.getMusicExtension());
     }
     
     override function update(elapsed:Float):Void{

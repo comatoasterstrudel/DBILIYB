@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="stroke.png">
+<SubTexture name="stroke idle0000" x="0" y="0" width="68" height="87" frameX="-135" frameY="-34" frameWidth="315" frameHeight="785" />
+<SubTexture name="stroke idle0001" x="130" y="0" width="53" height="62" frameX="-141" frameY="-35" frameWidth="315" frameHeight="785" />
+<SubTexture name="stroke idle0002" x="0" y="87" width="47" height="59" frameX="-140" frameY="-42" frameWidth="315" frameHeight="785" />
+<SubTexture name="stroke idle0003" x="68" y="0" width="62" height="67" frameX="-143" frameY="-43" frameWidth="315" frameHeight="785" />
+</TextureAtlas>

@@ -1,0 +1,51 @@
+flag	content
+$BEAN	testing it
+
+$BEGINNING_1	 Hello !! Um.. I found this.. BODY on the road!
+$BEGINNING_2	They’re alive.. So I decided we can inspect them for SCIENCE..
+$BEGINNING_3	YOU WILL LEARN ABOUT THE NERVOUS SYSTEM.
+$BEGINNING_4	Here: you can click on things to learn more about them..
+$BEGINNING_5	TRY IT NOW!!
+
+$NERVOUS_1	This is the Nervous System! It’s kind of like the bodies control center..
+$NERVOUS_2	It helps you to think, move, feel, and a LOT of other things, too!
+$NERVOUS_3	The part we are looking at now, (the Central Nervous System) is made up of the Brain, Spinal Cord, and a LOT of nerves!!
+
+$BRAIN_1	This is the brain.. It’s the culmination of your being!
+$BRAIN_2	This is pretty much the most important part.. (but everything else is still important too)
+$BRAIN_3	It’s what lets you control your body! It lets you think, and lots more!
+
+$CORD_1	This is the spinal cord.. It’s a bunch of nerves that goes down your back..
+$CORD_2	It lets signals go to and from your brain!!
+$CORD_3	more info hahaha
+
+$NERVOUS_OUTRO_1	Well.. that was a brief explanation of the central nervous system!!
+$NERVOUS_OUTRO_2	What about the other part, the peripheral nervous system?
+
+$PERIPHERAL_1	The peripheral nervous system consists of lots of nerves that go through the body..
+$PERIPHERAL_2	The head, neck and the rest!!
+$PERIPHERAL_3	It sends the signals from the central nervous system to the rest of the body..
+$PERIPHERAL_4	For example.. If you need to move your arm, its because of the peripheral nerves sending the signal from your brain.. To your arms! 
+$PERIPHERAL_5	Isn't that great!?!?
+
+$STROKE_BUTTON_1	Anyway, I think we should learn about some negative things that can happen with the nervous system..
+$STROKE_BUTTON_2	Click that button to simulate a stroke on our little friend here!!
+$STROKE_BUTTON_3	(it wont hurt him THAT bad..)
+
+$STROKE_1	UH OH.. IT LOOKS LIKE THEYRE HAVING A STROKE...        is what I WOULD be saying if this wasn't planned!
+$STROKE_2	Erm.. for you SIMPLETONS that means that the brain is having its blood flow blocked..
+$STROKE_3	It's usually caused by either a blood clot.. Or if the brain suddenly starts bleeding.. Yikes!!!
+$STROKE_4	When there isn't any blood flow, the brain cells die, which stops the brains ability to function..
+$STROKE_5	If you couldn’t tell.. That isn't good…
+$STROKE_6	If someone is having a stroke, the best thing you can do is immediately call 911 for help..
+$STROKE_7	Every moment counts, so be as fast as you can.
+$STROKE_8	Luckily, we wont have to worry about that in this case, we can just click that button again to fix this..
+$STROKE_9	Around 140,000 Americans die per year because of strokes..
+$STROKE_10	This person will NOT be one of them..
+$STROKE_11	Well, go ahead and reverse the stroke.
+
+$END_1	AH, good, they’re okay!
+$END_2	Anyway, thank you for listening to this nice presentation..
+$END_3	About the nervous system..
+$END_4	oh. there goes the sources I used...  I wonder where they're going..
+$END_5	oh well.. Bye bye!!

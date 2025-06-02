@@ -8,12 +8,16 @@ class DialogueBox extends FlxTypedGroup<FlxSprite>
     
     var endFunction:Void->Void;
     
+	public static var open:Bool = false;
+    
     public function new(textstring:String, endFunction:Void->Void, x:Float, y:Float):Void{
         super();
         
         this.endFunction = endFunction;
         
-        box = add(new FlxSprite(x,y).makeGraphic(200, 150, 0xFF000000));
+		DialogueBox.open = true;
+
+		box = add(new FlxSprite(x, y).makeGraphic(200, 230, 0xFF000000));
         
         box.scale.set(0, 0);
         
@@ -29,7 +33,7 @@ class DialogueBox extends FlxTypedGroup<FlxSprite>
             add(button);
         }});
         
-        FlxG.sound.play('assets/sounds/slide1.ogg', .5);
+		FlxG.sound.play('assets/sounds/slide1' + Main.getMusicExtension(), .5);
     }
     
     function close():Void{
@@ -43,10 +47,11 @@ class DialogueBox extends FlxTypedGroup<FlxSprite>
             box.updateHitbox();
             box.setPosition(x, y);
         }, onComplete: function(f):Void{
+				DialogueBox.open = false;
             endFunction();
             destroy();
         }});
         
-        FlxG.sound.play('assets/sounds/slide2.ogg', .5);
+		FlxG.sound.play('assets/sounds/slide2' + Main.getMusicExtension(), .5);
     }
 }

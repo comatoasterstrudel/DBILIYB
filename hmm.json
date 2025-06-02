@@ -1,6 +1,11 @@
 {
   "dependencies": [
     {
+      "name": "firetongue",
+      "type": "haxelib",
+      "version": "2.1.0"
+    },
+    {
       "name": "flixel",
       "type": "haxelib",
       "version": "5.8.0"

@@ -10,6 +10,8 @@ class ButtonSprite extends FlxSprite{
     
 	public var pressed:Bool = false;
     
+	public var selectable:Bool = true;
+    
     public function new(idlePath:String, pressedPath:String, pressedFunction:Void->Void, x, y):Void{        
         this.idlePath = idlePath;
         this.pressedPath = pressedPath;
@@ -21,7 +23,12 @@ class ButtonSprite extends FlxSprite{
     override function update(elapsed:Float):Void{
         super.update(elapsed);
         
-        if(FlxG.mouse.overlaps(this, this.camera)){
+		if (selectable
+			&& FlxG.mouse.overlaps(this, this.camera)
+			&& !DialogueBox.open
+			|| FlxG.mouse.overlaps(this, this.camera)
+			&& idlePath == 'assets/images/dbox_selected.png')
+		{
             if(currentSprite != pressedPath){
                 loadGraphic(pressedPath);
                 currentSprite = pressedPath;
