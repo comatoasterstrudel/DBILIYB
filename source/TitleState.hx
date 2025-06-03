@@ -11,6 +11,8 @@ class TitleState extends FlxState
     
     override function create()
     {
+        DialogueBox.open = false;
+        
         bg = new MenuBackground(.1);
         add(bg);
         

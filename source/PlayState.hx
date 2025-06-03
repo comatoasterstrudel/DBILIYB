@@ -329,12 +329,16 @@ class PlayState extends FlxState //god the code for this is awful
 								FlxTween.tween(text, {x: -text.width}, 3, { onComplete: function(d):Void{
 									add(new DialogueBox(Main.tongue.get("$END_4"), function():Void {
 										add(new DialogueBox(Main.tongue.get("$END_5"), function():Void {
+											FlxG.sound.music.fadeOut(3, 0);
 											FlxTween.tween(FlxG.camera, {alpha: 0}, 3, {
 												onComplete: function(f):Void
 												{
 													#if desktop
 													Sys.exit(1);
+													return
 													#end
+													
+													FlxG.switchState(new TitleState());
 												}
 											});
 										}, 100, 100));
